@@ -5,8 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Decision Twin | Login</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="style.css">
 </head>
@@ -14,6 +12,7 @@
 <body>
 
 <div class="background">
+    <div class="grid"></div>
     <div class="circle one"></div>
     <div class="circle two"></div>
     <div class="circle three"></div>
@@ -22,9 +21,15 @@
 <div class="container">
 
     <div class="logo">
-        <div class="logo-icon">◆</div>
+
+        <div class="logo-glow"></div>
+
+        <img src="logo.jpeg" alt="Decision Twin Logo" class="logo-img">
+
         <h1>Decision Twin</h1>
-        <p>AI Powered Smart Decisions</p>
+
+        <p>Intelligent Decisions Powered by AI</p>
+
     </div>
 
     <div class="login-card">
@@ -61,8 +66,9 @@
 
             </div>
 
-            <button type="submit">
-                Login
+            <button type="submit" class="login-btn">
+                <span>Login</span>
+                <span>→</span>
             </button>
 
         </form>
@@ -71,9 +77,7 @@
             <span>OR</span>
         </div>
 
-        <button class="google-btn">
-            Continue with Google
-        </button>
+        
 
         <p class="signup">
             Don't have an account?
